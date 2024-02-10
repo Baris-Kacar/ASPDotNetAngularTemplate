@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Baris Kacar",
+  "classifications": [ "Web", "MVC", "Angular" ],
+  "identity": "PBIntelligence",
+  "name": "ASP.NET Core Angular (SPA)",
+  "shortName": "angularSPA",
+  "sourceName":"DotNetSPA",
+  "description": "This is a template for an ASP.Net Core project with .NET 8 and Angular v17 (SPA).",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

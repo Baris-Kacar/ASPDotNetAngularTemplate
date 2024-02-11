@@ -14,6 +14,12 @@ Um das Projekt lokal auszuführen, müssen Sie zunächst sicherstellen, dass Sie
 5. Aktivieren Sie das Kontrollkästchen neben "Internet Information Services (IIS)".
 6. Klicken Sie auf "OK", um die Änderungen zu übernehmen. Windows wird den Internet Information Services (IIS) installieren und konfigurieren.
 
+# Version
+Dieses Projekt verwendet die folgenden Versionen von .NET und Angular:
+
+- **.NET**: Version 8
+- **Angular**: Version 17
+
 # Ausführung des Projekts
 Nach Abschluss der Installation können Sie das Projekt wie folgt ausführen:
 
@@ -21,7 +27,6 @@ Nach Abschluss der Installation können Sie das Projekt wie folgt ausführen:
 2. Wählen Sie IIS Express als Ihr Ausführungsumgebung. ![Untitled](https://github.com/Baris-Kacar/ASPDotNetAngularTemplate/assets/73958902/6d3df261-dde8-4ecc-820a-8f245583ae4e)
 3. Warten Sie, bis der Frontend Server vollständig gestartet ist. ![NPM](https://github.com/Baris-Kacar/ASPDotNetAngularTemplate/assets/73958902/14ffb1b8-1718-4637-853e-599bb2442984)  ![SPAProxy](https://github.com/Baris-Kacar/ASPDotNetAngularTemplate/assets/73958902/522d8ef5-ae79-4e68-9c89-f3e455266567)
 4. Sie werden automatisch zur Angular-Seite weitergeleitet. ![Capture](https://github.com/Baris-Kacar/ASPDotNetAngularTemplate/assets/73958902/ff6e2520-4270-4d2e-b507-8baf1a337588)
-
 
 ## Was ist ein SPA-Proxy?
 Ein SPA-Proxy ist ein Zwischenglied zwischen Ihrem Backend-Server und Ihrem Frontend-Framework. Es fungiert als Vermittler, der Anfragen von Ihrem Backend-Server entgegennimmt und sie an Ihren Frontend-Entwicklungsserver weiterleitet. Der Proxy wartet geduldig, bis der Frontend-Entwicklungsserver vollständig gestartet ist, bevor er Anfragen weiterleitet.

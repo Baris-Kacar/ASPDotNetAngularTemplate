@@ -70,7 +70,7 @@ After creating the project, you need to build it to ensure all dependencies are 
    `dotnet build` <br>
   This command will compile the project and generate the necessary output files.
 
-## Was ist ein SPA-Proxy?
+## What is an SPA Proxy?
 An SPA Proxy is an intermediary between your backend server and your frontend framework. It acts as a mediator that receives requests from your backend server and forwards them to your frontend development server. The proxy patiently waits until the frontend development server is fully started before forwarding requests.
 
 An SPA Proxy (Single Page Application Proxy) is a mechanism used to forward requests from a web server to a Single Page Application (SPA) hosted separately from a backend server. This is especially useful when the SPA and the backend are hosted on different servers or ports.

@@ -68,8 +68,10 @@ Explanation of template.json metadata:
 - tags: Additional tags or keywords describing the template. These can be used for categorization and searching for templates.
 
 Once the template.json is defined, you can create and package the template to make it available either locally or globally. Use the following command:<br>
-`dotnet new --install` <br> <br>
-Now, you can navigate to the directory where you want to use the project template and enter the following command: <br>
+    **Note: Before installation, please ensure to change the file extension from .json.txt to .json in the .template.config folder.**<br><br>
+`dotnet new --install .\` <br> <br>
+![Screenshot 2024-02-11 155042](https://github.com/Baris-Kacar/ASPDotNetAngularTemplate/assets/73958902/717681ca-e3a7-4764-94e5-0e6d7fe2e0e1) <br> <br>
+Now, you can navigate to the directory where you want to use the project template and enter the following command: <br><br>
 `dotnet new angularSPA` <br><br>
 After creating the project, you need to build it to ensure all dependencies are resolved and the project is ready for execution.
 1. **Build the Project**: Navigate to the root directory of your project and execute the following command to build it: <br>

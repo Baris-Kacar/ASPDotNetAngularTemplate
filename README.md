@@ -1,3 +1,9 @@
+# Table of Contents
+1. [Installation](#installation)
+2. [Running the Project](#running-the-project)
+3. [Creating a Dotnet Project Template](#creating-a-dotnet-project-template)
+4. [What is an SPA Proxy?](#what-is-an-spa-proxy)
+
 # Installation
 Before running the project locally, ensure that you have Node.js and npm installed on your system.
 
